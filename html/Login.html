@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Login page">
+    <meta name="keywords" content="HTML,CSS">
+    <meta name="author" content="Amirhossein Sohrabbeig">
+    <title>ورود</title>
+    <link rel="stylesheet" href="../assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/HW2_global.css">
+    <link rel="stylesheet" href="../styles/Login.css">
+    <link rel="icon" href="../assets/images/favicon.png" type="image/png">
+</head>
+<body>
+    <div id="main">
+        <div id="navigation_bar">
+           <div  id="homepage_link">
+               <a href="Homepage.html" title="صفحه اصلی">CeitGames</a>
+           </div>
+            <div id="left_links">
+                <a href="Login.html" title="ورود" id="login_logo"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i></a>
+                <a href="Register.html" title="ثبت نام" id="register_logo"><i class="fa fa-user-plus fa-lg" aria-hidden="true"></i></a>
+                <a href="Leaderboard.html" title="صفحه‌ی امتیازات" id="leaderboard_logo"><i class="fa fa-trophy fa-lg" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div id="Login_form">
+            <p id="form_title">ورود</p>
+            <form action="action_page.php">
+                <div class="container">
+                    <br>
+                    <div class="input-container">
+                        <label><i class="fa fa-envelope fa-lg form-icon" aria-hidden="true"></i></label>
+                        <input  class="input" type="text" placeholder="ایمیل یا شماره تلفن" name="uname" required>
+                    </div>
+                    <br><br>
+                    <div class="input-container">
+                        <label><i class="fa fa-lock fa-2x form-icon" aria-hidden="true"></i></label>
+                        <input class="input" type="password" placeholder="رمز عبور    " name="psw" required>
+                    </div>
+                    <br>
+                    <div class="remember">
+                        <input type="checkbox" name="checkboxG1" id="checkboxG1" class="css-checkbox" />
+                        <label for="checkboxG1" class="css-label"></label>
+                        <p>!مرا به خاطر بسپار</p>
+                    </div>
+                    <br><br>
+                    <button type="submit">ورود</button>
+                    <br>
+                    <span class="psw"><a href="#">!رمزمو یادم رفته</a></span>
+                </div>
+
+            </form>
+            <div id="form_footer">
+               <p>حساب کاربری ندارید؟</p><a href="Register.html">ثبت نام کنید</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
