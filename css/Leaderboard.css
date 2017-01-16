@@ -1,0 +1,196 @@
+#Best_scores {
+    width: 450px;
+    height: 500px;
+    position: relative;
+    border-radius: 5px;
+    left: 35%;
+    right: 30%;
+    top: 80px;
+    background-color: white;
+    z-index: 1;
+}
+
+#container_title {
+    text-align: center;
+    font-family: Shabnam-Bold;
+    font-size: large;
+}
+
+.top_scores {
+    position: relative;
+    width: 130px;
+    float: left;
+}
+
+.top_scores img {
+    border-radius: 50%;
+    width: 70px;
+    border: 2px solid;
+}
+
+#first img {
+    border-color: gold;
+}
+
+#second img {
+    border-color: silver;
+}
+
+#third img {
+    border-color: sandybrown;
+}
+
+#third, #second {
+    top: 20px;
+}
+
+.top_player_name {
+    margin: 0;
+    font-size: medium;
+    position: absolute;
+    top: 75px;
+}
+
+.top_player_number {
+    position: absolute;
+    top: -40px;
+    left: 33px;
+    font-family: Shabnam-FD;
+}
+
+.number {
+    position: absolute;
+    font-family: Shabnam-FD, serif;
+    color: forestgreen;
+    left: 25px
+}
+
+.ranks {
+    position: relative;
+    left: 60px;
+    top: 10px;
+}
+
+.filled {
+    color: gold;
+}
+
+.empty {
+    color: lightgray;
+}
+
+.top_scores .stars {
+    position: absolute;
+    top: 120px;
+}
+
+.top_scores .fa-square {
+    color: beige;
+    position: absolute;
+    top: 55px;
+    left: 55px;
+}
+
+.top_scores .score {
+    font-family: Shabnam-FD;
+    position: absolute;
+    font-size: x-small;
+    top: 45px;
+    left: 56px;
+}
+
+#other_scores {
+    width: 400px;
+    position: absolute;
+    border-top: lightgray solid thin;
+    top: 230px;
+    left: 25px;
+}
+
+.other img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.other * {
+    float: right;
+    display: inline-block;
+}
+
+.other {
+    position: absolute;
+    width: 100%;
+}
+
+
+.other_player_number {
+    font-family: Shabnam-FD, sans-serif;
+}
+
+.other .fa-square {
+    position: absolute;
+    left: 365px;
+    top: 40px;
+    color: beige;
+
+}
+
+.other .score {
+    font-family: Shabnam-FD;
+    position: absolute;
+    font-size: x-small;
+    left: 367px;
+    top: 30px;
+}
+
+.other_player_name {
+    position: absolute;
+    font-size: small;
+    left: 230px;
+    top: -7px;
+}
+
+.other .number {
+    position: absolute;
+    left: 250px;
+    top: 15px;
+    font-size: small;
+}
+
+.other .stars {
+    position: absolute;
+    top: 17px;
+}
+
+.other:hover {
+    background-color: wheat;
+}
+
+#fourth {
+    top:10px;
+}
+
+#fifth {
+    top: 80px;
+}
+
+#sixth {
+    top: 150px;
+}
+
+.bullets {
+    position: absolute;
+    top: 470px;
+    left: 200px;
+}
+
+i.fa.fa-circle {
+    color: gainsboro;
+}
+
+#first_bullet {
+    color: gray;
+}
+

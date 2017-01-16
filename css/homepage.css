@@ -1,0 +1,43 @@
+
+
+#sync1 .item{
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    height: 660px;
+}
+#sync2 .item{
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    height: 100px;
+}
+
+#sync1 .item img {
+    width: 100%;
+    /*height: 100px;*/
+}
+
+#sync2 {
+    position: absolute;
+    top: 550px;
+
+}
+
+#sync2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
